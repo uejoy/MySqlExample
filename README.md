@@ -9,4 +9,4 @@ MySQL Server Version：<a href='https://downloads.mysql.com/archives/community/'
 
 MySQL Connector C++ Version：[mysql-connector-c++-8.0.32-winx64](https://downloads.mysql.com/archives/c-cpp/)
 ## Article
-[虚幻引擎（UE5）中接入MySQL数据库（附工程源码）](https://pome.cc/mysql2/)
+[虚幻引擎（UE5）中接入MySQL数据库（附工程源码）](https://pome.cc/posts/mysql2/)
