@@ -42,3 +42,24 @@ void AMySqlExampleGameModeBase::TestMySql()
 	{
 	}
 }
+
+void AMySqlExampleGameModeBase::OperationMySql()
+{
+	//操作数据库
+	try
+	{
+		sql::mysql::MySQL_Driver* driver;
+		sql::Connection* con;
+
+		driver = sql::mysql::get_mysql_driver_instance();
+		con = driver->connect("tcp://localhost:3306", "root", "abc123456");
+
+
+		
+		delete con;
+	}
+	catch (const sql::SQLException& err)
+	{
+		
+	}
+}

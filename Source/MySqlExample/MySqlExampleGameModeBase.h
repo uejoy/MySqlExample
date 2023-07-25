@@ -17,6 +17,10 @@ class MYSQLEXAMPLE_API AMySqlExampleGameModeBase : public AGameModeBase
 protected:
 	UFUNCTION(Exec)
 	void TestMySql();
+	UFUNCTION(Exec)
+	void OperationMySql();
 
+
+	
 	
 };
